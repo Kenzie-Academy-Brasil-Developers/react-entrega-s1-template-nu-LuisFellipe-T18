@@ -1,0 +1,22 @@
+.container{
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 1rem 6.25rem;
+}
+#container{
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 1rem 6.25rem;
+}
+
+.border__green{
+    border-left: 4px solid var(--color-secondary);
+    border-radius: 4px 0px 0px 4px;
+}
+.border__red{
+    border-left: 4px solid var(--color-primary);
+    border-radius: 4px 0px 0px 4px;
+}
+

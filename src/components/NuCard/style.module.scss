@@ -1,0 +1,23 @@
+%flexBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.flexBox__card{
+   @extend %flexBox;
+   
+   background: var(--grey-1);
+   padding: 1rem;
+   
+}
+
+.flexBox__container {
+    width: 34.375rem;
+    height: 5.4375rem;
+    flex-direction: column;
+    
+
+}
+
