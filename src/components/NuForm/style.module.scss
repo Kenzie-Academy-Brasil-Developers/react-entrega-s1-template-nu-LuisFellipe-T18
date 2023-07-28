@@ -1,10 +1,20 @@
-.flexBox{
+.flexForm{
     display: flex;
     flex-direction: column;
     width: 22.1875rem;
     height: 27.125rem;
     padding: 1rem;
     gap: 1rem;
-    border: 1px solid var(--grey-3);
+    background: var(--grey-1);
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.2);
     margin-top: 1rem;
+    flex-wrap: wrap;
+
+    .text__exemple {
+        color: var(--grey-3);
+        font-family: --font-primary;
+        font-size: 0.75rem;
+    }
 }
+

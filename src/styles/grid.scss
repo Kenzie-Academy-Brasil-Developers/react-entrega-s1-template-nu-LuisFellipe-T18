@@ -3,6 +3,13 @@
     max-width: 1500px;
     margin: 0 auto;
     padding: 1rem 6.25rem;
+    
+
+    @media (max-width: 450px){
+        display: flex;
+        flex-direction: column;
+        width: 450px; 
+  }
 }
 #container{
     width: 100%;

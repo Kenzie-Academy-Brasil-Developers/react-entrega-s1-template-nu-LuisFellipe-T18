@@ -10,7 +10,13 @@
    
    background: var(--grey-1);
    padding: 1rem;
+
+   @media (max-width: 450px){
+    display: flex;
+    width: 400px; 
+
    
+}
 }
 
 .flexBox__container {
@@ -18,6 +24,12 @@
     height: 5.4375rem;
     flex-direction: column;
     
+    @media (max-width: 450px){
+        display: flex;
+        margin-right: 180px;
+        justify-content: flex-start;
+        width: 450px; 
 
+}
 }
 

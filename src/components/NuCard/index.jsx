@@ -7,6 +7,7 @@ export const NuCard = ({ description, value, typeValue, deleteResume, id }) => {
   });
   
   typeValue === "Entrada" ? "border__green" : "border__red"
+  
   return (
     <li className={styles.flexBox__container}>
       <div className={typeValue === "Entrada" ? "border__green" : "border__red"}>

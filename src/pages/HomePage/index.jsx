@@ -10,7 +10,7 @@ export const HomePage = () => {
   const [resumeFinance, setResumeFinance] = useState([]);
 
   const addResume = (formData) => {
-    console.log(formData)
+    console.log(formData);
     const newResume = { ...formData, id: uuidv4() };
 
     setResumeFinance([...resumeFinance, newResume]);
@@ -25,14 +25,12 @@ export const HomePage = () => {
 
   return (
     <DefaultTemplate>
-      <div className={styles.flexBox} >
+      <div className={styles.flexBox}>
         <NuForm addResume={addResume} />
         <NuList resumeFinance={resumeFinance} deleteResume={deleteResume} />
       </div>
 
-      <div>
-        <TotalMoney resumeFinance={resumeFinance} />
-      </div>
+      <TotalMoney resumeFinance={resumeFinance} />
     </DefaultTemplate>
   );
 };
